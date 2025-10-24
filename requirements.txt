@@ -1,0 +1,54 @@
+# --- Core app ---
+Flask==3.0.0
+Werkzeug==3.0.1
+Jinja2==3.1.2
+itsdangerous==2.1.2
+click==8.1.7
+
+# --- DB / ORM ---
+SQLAlchemy==2.0.23
+alembic==1.13.0
+psycopg2-binary==2.9.9
+pytz==2023.3
+python-dateutil==2.8.2
+
+# --- Supabase stack (versiones compatibles entre sí) ---
+supabase==2.22.1
+postgrest==1.1.1
+httpx==0.28.1
+
+# --- Auth / Forms ---
+Flask-Login==0.6.3
+Flask-WTF==1.2.1
+WTForms==3.1.1
+email-validator==2.1.0
+bcrypt==4.1.2
+
+# --- Utils ---
+python-dotenv==1.0.0
+python-slugify==8.0.1
+requests==2.31.0
+Pillow==10.1.0
+openpyxl==3.1.2
+pandas==2.1.4
+
+# --- Rate limit / Mail ---
+Flask-Limiter==3.5.0
+Flask-Mail==0.9.1
+
+# --- Server ---
+gunicorn==21.2.0
+
+# --- Observabilidad ---
+sentry-sdk[flask]==1.39.1
+
+# --- Tests / QA (opcionales; puedes moverlos a requirements-dev.txt) ---
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-flask==1.3.0
+pytest-mock==3.12.0
+playwright==1.40.0
+faker==21.0.0
+flake8==6.1.0
+black==23.12.1
+ruff==0.1.8
